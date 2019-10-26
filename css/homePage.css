@@ -1,0 +1,88 @@
+html, body {
+    height : 100%;
+    width : 100%;
+    position:fixed;
+   overflow: hidden;
+   clip:auto;
+   left: 0px; 
+   top: 0px; 
+   right: 0px; 
+   bottom: 0px;
+   scroll:false;
+   keepScrollPos:false;
+   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#homeView {
+    background-repeat : no-repeat;
+    background-color : none;
+    background-clip : border-box;
+    position : fixed;
+    height : 100%;
+    width : 100%;
+    background-origin : content-box;
+    background-position : 0% 0%;
+    background-size : cover;
+    background-image : url('homeView.jpg');
+}
+#Brain {
+    vertical-align: middle; 
+    text-align: center; 
+    position: fixed; 
+    width: 50%; 
+    float: right; 
+    clear: both; 
+    right: 1%; 
+    height: 11%; 
+    top: 18%; 
+    /*width: 50%; 
+    position: fixed; 
+    left: 3%; 
+    float: left; 
+    text-align: center; 
+    vertical-align: middle; 
+    clear: both; 
+    height: 11%; 
+    top: 2%; 
+    z-index: 9999;*/
+}
+#Words {
+    vertical-align: middle; 
+    text-align: center; 
+    position: fixed; 
+    width: 50%; 
+    float: right; 
+    clear: both; 
+    right: 1%; 
+    height: 11%; 
+    top: 16%; 
+    /*z-index: 9999;*/
+    display: none;
+}
+#Options{
+    width: 50%; 
+    position: fixed; 
+    float: right; 
+    clear: both; 
+    background-color: none; 
+    text-align: center; 
+    vertical-align: middle; 
+    right: 25%; 
+    height: 11%; 
+    bottom: 18%; 
+    z-index: 9999;
+}
+#Credits{
+    width: 50%; 
+    position: fixed; 
+    bottom: 3%; 
+    left: 3%; 
+    float: left; 
+    clear: both; 
+    overflow: hidden; 
+    vertical-align: middle; 
+    text-align: center; 
+    height: 11%; 
+    z-index: 9999;
+}

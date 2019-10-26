@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+html, body {
+    height : 100%;
+    width : 100%;
+   position:fixed;
+   overflow: hidden;
+   clip:auto;
+   left: 0px; 
+   top: 0px; 
+   right: 0px; 
+   bottom: 0px;
+   scroll:false;
+   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#level_page{
+	display:box;
+	position:fixed; 
+    background-image: url('BackView.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height:100%; 
+    width: 100%;
+    background-origin: content-box; 
+    background-size: cover;
+    height: 100%; 
+    selected:true;
+    
+}
+
+#parentA {
+  clear:both;
+  min-width:100%;
+  height:60%;
+  margin-top: 10%;
+}
+#Parent3 {
+    width:28%;
+    height:100%;
+    margin-left:4%;
+    float:left;
+    display: inline;
+    position: relative;
+}
+#ccov1 {
+    width: 100%;
+    height:28.3%;
+    position: absolute;
+}
+#ccov2 {
+    width: 100%;
+    height:28.3%;
+    top:33.3%;
+    position: absolute;
+}
+#ccov3{
+    width: 100%;
+    height:28.3%;
+    top:66.6%;
+    position: absolute;
+}
+#ccov4{
+    width: 100%;
+    height:28.3%;
+    position: absolute;
+}
+#ccov5{
+    width: 100%;
+    height:28.3%;
+    top:33.3%;
+    position: absolute;
+}
+#ccov6{
+    width: 100%;
+    height:28.3%;
+    top:66.6%;
+    position: absolute;
+} 
+#ccov7{
+    width: 100%;
+    height:28.3%;
+    position: absolute;
+}
+#ccov8{
+    width: 100%;
+    height:28.3%;
+    top:33.3%;
+    position: absolute;
+}
+#ccov9{
+    width: 100%;
+    height:28.3%;
+    top:66.6%;
+    position: absolute;
+}
+#Nn1,#Nn2,#Nn3,#Nn4,#Nn5,#Nn6,#Nn7,#Nn8,#Nn9 {
+    border: 1px solid green;
+    height: 100%;
+}
+#imm0, #imm1, #imm2, #imm3, #imm4,#imm5, #imm6, #imm7,#imm8 {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin:0px;
+}
+#Parent6 {
+    width:28%;
+    height:100%;
+    margin-left:4%;
+    float:left;
+    display: inline;
+    position: relative;
+}
+#Parent9 {
+    width:28%;
+    height:100%;
+    margin-left:4%;
+    margin-right:4%;
+    float:left;
+    display: inline;
+    position: relative;
+}
+#EndA {
+    width:100%;
+    height:10%;
+    position: fixed;
+    bottom:1%;
+}
+
+#Home {
+    width:15%;
+    height:100%;
+    margin: 0px auto;
+    
+}
