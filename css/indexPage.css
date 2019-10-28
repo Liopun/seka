@@ -1,0 +1,449 @@
+ @charset "utf-8";
+
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+
+   overflow: hidden;
+   clip: auto;
+   left: 0px;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+
+ #Full {
+   display: box;
+   background-image: url('../img/hints.jpeg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 100%;
+   background-origin: content-box;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+
+
+ }
+
+
+ #AlertBack {
+   display: none;
+   opacity: .4;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   background-color: white;
+   width: 100%;
+   z-index: 10;
+
+ }
+
+ #AlertBox {
+   display: none;
+   position: fixed;
+   border-radius: 10px;
+   background-color: #88641C;
+   width: 90%;
+   height: 70%;
+   left: 5%;
+   right: 5%;
+   top: 3%;
+   z-index: 10;
+
+ }
+
+ #AlertHead {
+   text-align: center;
+   vertical-align: middle;
+   background: #666;
+   font-size: large;
+   top: 5px;
+   left: 5px;
+   right: 5px;
+   color: #913b08;
+   height: 10%;
+   position: absolute;
+ }
+
+ #AlertBody {
+   background: #0080FF;
+   height: 70%;
+   top: 10%;
+   left: 5px;
+   right: 5px;
+   position: absolute;
+ }
+
+ #AlertFoot {
+   background: #090909;
+   bottom: 5px;
+   left: 5px;
+   right: 5px;
+   text-align: right;
+   height: 20%;
+   position: absolute;
+ }
+
+ #but1 {
+   width: 40%;
+   height: 60%;
+   float: left;
+   margin-left: 2%;
+   margin-top: 5%;
+
+   text-align: center;
+   vertical-align: middle;
+ }
+
+ #but2 {
+   width: 40%;
+   height: 60%;
+   float: right;
+   margin-right: 2%;
+   margin-top: 5%;
+   text-align: center;
+   vertical-align: middle;
+ }
+
+
+ #parent {
+   clear: both;
+   min-width: 100%;
+   /*height:18em; */
+   height: 85%;
+   width: 100%;
+
+ }
+
+ /*parent of 1st 5 boxes */
+ #Parent5 {
+
+   width: 20%;
+   height: 100%;
+   margin-left: 4%;
+   float: left;
+   display: inline-table;
+   position: relative;
+ }
+
+ #N1,
+ #N2,
+ #N3,
+ #N4,
+ #N5 {
+   height: 100%;
+   width: 100%;
+   border: 1px solid black;
+
+ }
+
+ /*parent of 2nd 5 boxes */
+ #Parent10 {
+   height: 100%;
+   width: 20%;
+   margin-left: 4%;
+   float: left;
+   display: inline-table;
+   position: relative;
+
+ }
+
+ #N6,
+ #N7,
+ #N8,
+ #N9,
+ #N10 {
+
+   width: 100%;
+   border: 1px solid black;
+   height: 100%;
+
+ }
+
+ /*parent of 3rd 5 boxes */
+ #Parent15 {
+
+   width: 20%;
+   height: 100%;
+   margin-left: 4%;
+   float: left;
+   display: inline-table;
+   position: relative;
+
+ }
+
+ #N11,
+ #N12,
+ #N13,
+ #N14,
+ #N15 {
+
+   width: 100%;
+   border: 1px solid black;
+   height: 100%;
+
+ }
+
+ /*parent of 4th 5 boxes */
+ #Parent20 {
+
+   width: 20%;
+   margin-left: 4%;
+   float: left;
+   display: inline-table;
+   position: relative;
+   height: 100%;
+
+ }
+
+ #N16,
+ #N17,
+ #N18,
+ #N19,
+ #N20 {
+
+   width: 100%;
+   border: 1px solid black;
+   height: 100%;
+
+ }
+
+ #im0,
+ #im2,
+ #im3,
+ #im4,
+ #im5,
+ #im6,
+ #im7,
+ #im8,
+ #im9,
+ #im10,
+ #im11,
+ #im12,
+ #im13,
+ #im14,
+ #im15,
+ #im16,
+ #im17,
+ #im18,
+ #im19 {
+   height: 100%;
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+ }
+
+ /*box covers for flipping effect*/
+ #cov1 {
+   top: 3.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov2 {
+   top: 23.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov3 {
+   top: 43.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov4 {
+   top: 63.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov5 {
+   top: 83.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov6 {
+   top: 3.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov7 {
+   top: 23.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov8 {
+   top: 43.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov9 {
+   top: 63.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov10 {
+   top: 83.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov11 {
+   top: 3.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov12 {
+   top: 23.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov13 {
+   top: 43.5%;
+   width: 100%;
+   height: 16.5%;
+
+   position: absolute;
+ }
+
+ #cov14 {
+   top: 63.5%;
+   width: 100%;
+   height: 16.5%;
+
+   position: absolute;
+ }
+
+ #cov15 {
+   top: 83.5%;
+   width: 100%;
+   height: 16.5%;
+
+   position: absolute;
+ }
+
+
+ #cov16 {
+   top: 3.5%;
+   width: 100%;
+   height: 16.5%;
+
+
+   position: absolute;
+
+ }
+
+ #cov17 {
+   top: 23.5%;
+   width: 100%;
+   height: 16.5%;
+
+
+   position: absolute;
+ }
+
+ #cov18 {
+   top: 43.5%;
+   width: 100%;
+   height: 16.5%;
+
+
+   position: absolute;
+ }
+
+ #cov19 {
+   top: 63.5%;
+   width: 100%;
+   height: 16.5%;
+
+
+   position: absolute;
+ }
+
+ #cov20 {
+   top: 83.5%;
+   width: 100%;
+   height: 16.5%;
+
+
+   position: absolute;
+ }
+
+ #End {
+   width: 100%;
+   height: 8%;
+   position: fixed;
+   bottom: 1%;
+   overflow: hidden;
+ }
+
+ #Restart {
+   width: 13%;
+   height: 100%;
+   float: left;
+   margin: 0% 0% 0% 4%;
+
+
+ }
+
+ #Status {
+   width: 56%;
+   height: 100%;
+   float: left;
+   margin: 0% 0% 0% 5%;
+   text-align: center;
+   text-shadow: 1px 1px 1px black;
+   color: #FD9562;
+ }
+
+ #Menu {
+   width: 13%;
+   height: 100%;
+   float: right;
+   margin: 0% 4% 0% 3%;
+
+ }
+
+ #T {
+   width: 100%;
+   height: 50%;
+   font-size: large;
+   text-align: center;
+   vertical-align: middle;
+ }
+
+ #L {
+   width: 100%;
+   height: 50%;
+   font-size: large;
+   text-align: center;
+   vertical-align: middle;
+ }
