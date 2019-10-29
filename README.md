@@ -17,3 +17,25 @@ The app uses the following:
 
 Apart from its flexible design achieved through the use of HTML-5, CSS3 and jQuery Mobile, there are also some nested javascript functions to handle the game's flow and complex functionalities.
 All graphics were designed to meet the standards of this project.
+
+## How to Setup?
+
+### Download
+Simply clone the repository and install "Seka.apk" on [A Genymotion Emulator](https://www.genymotion.com/).
+
+
+### Compile and Run
+This is app was compiled using [The PhoneGap framework](https://phonegap.com/)
+You may visit the [PhoneGap docs](http://docs.phonegap.com/references/developer-app/custom-build/ios/) for a more in-depth guide or follow the steps below.
+
+1. create a phonegap demo app using the instructions from the [PhoneGap docs](http://docs.phonegap.com/getting-started/3-create-your-app/desktop/)
+2. clone the repository and copy all the files into "wwww" of the new phonegap demo app created
+
+Or you can just clone the repository and access the `index.html` in the route directory through your browser using [ripple emulator](https://www.npmjs.com/package/ripple-emulator). 
+
+```shellsession
+$ git clone https://github.com/Liopun/seka.git
+$ cd seka/
+$ npm install -g ripple-emulator
+$ ripple emulate
+```
