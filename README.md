@@ -41,6 +41,6 @@ $ ripple emulate
 ```
 ## What is missing?
 
-Some dependecies could have been added using phonegap. The javascript code need to include more jQuery functionalities to make the app faster and the source code more readable.
+Some dependecies could have been added using phonegap. Our javascript functions could include more jQuery functionalities to make the app faster and the source code more readable.
 
 What else is missing, what other problems does it have? I would love to hear from you. Feel free to open any issues or reach me directly at hcaptone@gmail.com
