@@ -134,11 +134,11 @@
    position: relative;
  }
 
+ #N0,
  #N1,
  #N2,
  #N3,
- #N4,
- #N5 {
+ #N4 {
    height: 100%;
    width: 100%;
    border: 1px solid black;
@@ -156,11 +156,11 @@
 
  }
 
+ #N5,
  #N6,
  #N7,
  #N8,
- #N9,
- #N10 {
+ #N9 {
 
    width: 100%;
    border: 1px solid black;
@@ -180,11 +180,11 @@
 
  }
 
+ #N10,
  #N11,
  #N12,
  #N13,
- #N14,
- #N15 {
+ #N14 {
 
    width: 100%;
    border: 1px solid black;
@@ -204,11 +204,11 @@
 
  }
 
+ #N15,
  #N16,
  #N17,
  #N18,
- #N19,
- #N20 {
+ #N19 {
 
    width: 100%;
    border: 1px solid black;
@@ -242,92 +242,100 @@
  }
 
  /*box covers for flipping effect*/
- #cov1 {
+ #cov0 {
    top: 3.5%;
+   width: 100%;
+   height: 16.5%;
+   position: absolute;
+ }
+
+ #cov1 {
+   top: 23.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
  #cov2 {
-   top: 23.5%;
+   top: 43.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
  #cov3 {
-   top: 43.5%;
+   top: 63.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
  #cov4 {
-   top: 63.5%;
+   top: 83.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
  #cov5 {
-   top: 83.5%;
+   top: 3.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
  #cov6 {
-   top: 3.5%;
+   top: 23.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
  #cov7 {
-   top: 23.5%;
+   top: 43.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
  #cov8 {
-   top: 43.5%;
-   width: 100%;
-   height: 16.5%;
-   position: absolute;
- }
-
- #cov9 {
    top: 63.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
- #cov10 {
+ #cov9 {
    top: 83.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
- #cov11 {
+ #cov10 {
    top: 3.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
- #cov12 {
+ #cov11 {
    top: 23.5%;
    width: 100%;
    height: 16.5%;
    position: absolute;
  }
 
- #cov13 {
+ #cov12 {
    top: 43.5%;
+   width: 100%;
+   height: 16.5%;
+
+   position: absolute;
+ }
+
+ #cov13 {
+   top: 63.5%;
    width: 100%;
    height: 16.5%;
 
@@ -335,14 +343,6 @@
  }
 
  #cov14 {
-   top: 63.5%;
-   width: 100%;
-   height: 16.5%;
-
-   position: absolute;
- }
-
- #cov15 {
    top: 83.5%;
    width: 100%;
    height: 16.5%;
@@ -351,7 +351,7 @@
  }
 
 
- #cov16 {
+ #cov15 {
    top: 3.5%;
    width: 100%;
    height: 16.5%;
@@ -361,8 +361,17 @@
 
  }
 
- #cov17 {
+ #cov16 {
    top: 23.5%;
+   width: 100%;
+   height: 16.5%;
+
+
+   position: absolute;
+ }
+
+ #cov17 {
+   top: 43.5%;
    width: 100%;
    height: 16.5%;
 
@@ -371,15 +380,6 @@
  }
 
  #cov18 {
-   top: 43.5%;
-   width: 100%;
-   height: 16.5%;
-
-
-   position: absolute;
- }
-
- #cov19 {
    top: 63.5%;
    width: 100%;
    height: 16.5%;
@@ -388,7 +388,7 @@
    position: absolute;
  }
 
- #cov20 {
+ #cov19 {
    top: 83.5%;
    width: 100%;
    height: 16.5%;

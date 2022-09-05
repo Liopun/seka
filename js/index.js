@@ -23,6 +23,28 @@ var goTo6 = false;
 var goTo7 = false;
 var goTo8 = false;
 var goTo9 = false;
+var memoryImages = {
+  img0: "im0",
+  img1: "im1",
+  img2: "im2",
+  img3: "im3",
+  img4: "im4",
+  img5: "im5",
+  img6: "im6",
+  img7: "im7",
+  img8: "im8",
+  img9: "im9",
+  img10: "im10",
+  img11: "im11",
+  img12: "im12",
+  img13: "im13",
+  img14: "im14",
+  img15: "im15",
+  img16: "im16",
+  img17: "im17",
+  img18: "im18",
+  img19: "im19",
+}
 
 //assign level and start up timer
 function assign(postN, postS) {
@@ -54,7 +76,7 @@ Array.prototype.memory_shuffle = function () {
 function StartOver(arg) {
 
   var memory_flipped = 0;
-  if (arg == 'im0' || arg == 'im1' || arg == 'im2' || arg == 'im3' || arg == 'im4' || arg == 'im5' || arg == 'im6' || arg == 'im7' || arg == 'im8' || arg == 'im9' || arg == 'im10' || arg == 'im11' || arg == 'im12' || arg == 'im13' || arg == 'im14' || arg == 'im15' || arg == 'im16' || arg == 'im17' || arg == 'im18' || arg == 'im19') {
+  if (typeof memoryImages === 'object' && memoryImages !== null && !Array.isArray(memoryImages) && memoryImages.hasOwnProperty(arg)) {
     if (TimerCounter == 0) {
       TimerCounter = 1;
 
@@ -190,8 +212,7 @@ function StartOver(arg) {
 }
 
 function Flip(id) {
-  var a;
-  var aClass;
+  var a, aClass;
 
   //check if we have shuffled at least one time 
   if (NoStop) {
@@ -200,88 +221,9 @@ function Flip(id) {
     NoStop = false;
   }
   if (memory_values.length < 2) {
-
-    if (id == 'im0') {
-      a = memory_arrays[0] + "";
-      aClass = "#N1";
-    }
-    if (id == 'im1') {
-      a = memory_arrays[1] + "";
-      aClass = "#N2";
-    }
-    if (id == 'im2') {
-      a = memory_arrays[2] + "";
-      aClass = "#N3";
-    }
-    if (id == 'im3') {
-      a = memory_arrays[3] + "";
-      aClass = "#N4";
-    }
-    if (id == 'im4') {
-      a = memory_arrays[4] + "";
-      aClass = "#N5";
-    }
-    if (id == 'im5') {
-      a = memory_arrays[5] + "";
-      aClass = "#N6";
-    }
-    if (id == 'im6') {
-      a = memory_arrays[6] + "";
-      aClass = "#N7";
-    }
-    if (id == 'im7') {
-      a = memory_arrays[7] + "";
-      aClass = "#N8";
-    }
-    if (id == 'im8') {
-      a = memory_arrays[8] + "";
-      aClass = "#N9";
-    }
-    if (id == 'im9') {
-      a = memory_arrays[9] + "";
-      aClass = "#N10";
-    }
-    if (id == 'im10') {
-      a = memory_arrays[10] + "";
-      aClass = "#N11";
-    }
-    if (id == 'im11') {
-      a = memory_arrays[11] + "";
-      aClass = "#N12";
-    }
-    if (id == 'im12') {
-      a = memory_arrays[12] + "";
-      aClass = "#N13";
-    }
-    if (id == 'im13') {
-      a = memory_arrays[13] + "";
-      aClass = "#N14";
-    }
-    if (id == 'im14') {
-      a = memory_arrays[14] + "";
-      aClass = "#N15";
-    }
-    if (id == 'im15') {
-      a = memory_arrays[15] + "";
-      aClass = "#N16";
-    }
-    if (id == 'im16') {
-      a = memory_arrays[16] + "";
-      aClass = "#N17";
-    }
-    if (id == 'im17') {
-      a = memory_arrays[17] + "";
-      aClass = "#N18";
-    }
-    if (id == 'im18') {
-      a = memory_arrays[18] + "";
-      aClass = "#N19";
-    }
-    if (id == 'im19') {
-      a = memory_arrays[19] + "";
-      aClass = "#N20";
-    }
-
+    extractNum = parseInt(id.substring(2))
+    a = memory_arrays[extractNum] + "";
+    aClass = "#N" + extractNum;
 
     $(aClass).flippy({
       //color_target: "red",
